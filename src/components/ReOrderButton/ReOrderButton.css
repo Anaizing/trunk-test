@@ -1,42 +1,26 @@
 .ReOrder {
-    width: 80%;
-    margin: 20px auto;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
+    width: 100%;
+    padding: 16px;
     text-align: center;
+    margin: 10px;
 }
 
-.ReOrder label {
-    display: block;
-    margin: 10px auto;
-    text-align: center;
-    font-weight: bold;
-}
 
-.ReOrder input,
-.ReOrder textarea,
-.ReOrder select {
-    display: block;
-    width: 80%;
-    box-sizing: border-box;
-    border: 1px solid black;
-    outline: none;
-    font: inherit;
-    margin: auto;
-}
 
 .ReOrder button {
     margin: 5px 0;
     padding: 10px;
     font: inherit;
-    border: 1px solid #fa923f;
-    background-color: transparent;
+    border: 1px solid #F7D420;
+    background-color: #fff;
+    box-shadow: 0 2px 3px #F04F54;
     color: #fa923f;
     cursor: pointer;
 }
 
 .ReOrder button:hover,
 .ReOrder button:active {
-    color: white;
-    background-color: #fa923f;
+    color: #fff;
+    background-color: #55CFC4;
+    box-shadow: 0 2px 3px #F04F54;
 }
