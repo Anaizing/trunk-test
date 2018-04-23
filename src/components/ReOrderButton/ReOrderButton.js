@@ -8,7 +8,7 @@ class ReOrderButton extends Component {
   render() {
     return (
       <div className="ReOrder">
-        <button>Change Order</button>
+        <button>Order by Newest Post</button>
       </div>
     );
   }

@@ -23,11 +23,12 @@ class MainPage extends Component {
             
         })
         return <li>
-            <section className="Posts">{posts}
-            </section>
             <section>
                 <ReOrderButton />
             </section>
+            <section className="Posts">{posts}
+            </section>
+            
         </li>;
     }
 }
